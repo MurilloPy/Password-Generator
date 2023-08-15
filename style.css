@@ -1,0 +1,104 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    border: inherit;
+    box-sizing: inherit;
+
+}
+
+:root{
+
+    background-color: aliceblue;
+
+}
+
+.container{
+
+    
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.524);
+
+}
+
+label{
+
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+#uppercase{
+
+    position: relative;
+    left: 5px;
+
+}
+
+label[for="lowercase"]{
+
+    position: relative;
+    left: 10px;
+
+}
+
+#lowercase{
+
+    position: relative;
+    left: 10px;
+    top: 3px;
+    width: 10px;
+
+}
+
+input[type="number"] {
+
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 3px;
+
+}
+
+button{
+
+    background-color: rgb(103, 103, 103);
+    color:white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: red;
+    transition: 0.3s ease;
+
+}
+
+#password{
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#generated-password{
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid silver;
+    padding: 10px;
+    word-wrap: break-word;
+
+}
