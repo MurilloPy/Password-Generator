@@ -15,7 +15,7 @@
 
 .container{
 
-    
+    text-align: center;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
@@ -36,23 +36,67 @@ label{
 #uppercase{
 
     position: relative;
-    left: 5px;
+    right: 15px;
+    top: 2px;
+
+}
+
+label[for="uppercase"]{
+
+    position: relative;
+    right: 15px;
 
 }
 
 label[for="lowercase"]{
 
     position: relative;
-    left: 10px;
+    right: 5px;
+
+}
+
+label[for="numbers"]{
+
+    position: relative;
+    right: 10px;
+    bottom: 1px;
+
+}
+
+#numbers{
+
+    position: relative;
+    right: 6px;
+
+}
+
+label[for="especial"]{
+
+    position: relative;
+    left: 7px;
+
+}
+
+#especial{
+
+    position: relative;
+    left: 8px;
+    top: 2px;
 
 }
 
 #lowercase{
 
     position: relative;
-    left: 10px;
-    top: 3px;
-    width: 10px;
+    left: 385px;
+    bottom: 27px;
+
+
+}
+
+input[type="checkbox"]{
+
+    cursor: pointer;
 
 }
 
@@ -100,5 +144,13 @@ button:hover{
     border: 1px solid silver;
     padding: 10px;
     word-wrap: break-word;
+
+}
+
+
+
+.container{
+
+    font-family: Arial, Helvetica, sans-serif;
 
 }
